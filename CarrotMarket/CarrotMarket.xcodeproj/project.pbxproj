@@ -114,6 +114,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FF0437F026A189E100AEB63F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFB8E9A126A1228200A5A1CC /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF0437F126A189FA00AEB63F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF0437F226A189FF00AEB63F /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				FFB8E9CD26A1282400A5A1CC /* GoodsListCellNode.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		FF0437F326A18A1B00AEB63F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FFB8E99D26A1228200A5A1CC /* AppDelegate.swift */,
+				FFB8E99F26A1228200A5A1CC /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FF0437F426A18A4400AEB63F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FFB8E9A626A1228400A5A1CC /* Assets.xcassets */,
+				FFB8E9A826A1228400A5A1CC /* LaunchScreen.storyboard */,
+				FFB8E9AB26A1228400A5A1CC /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		FFB8E99126A1228200A5A1CC = {
 			isa = PBXGroup;
 			children = (
@@ -139,13 +181,11 @@
 		FFB8E99C26A1228200A5A1CC /* CarrotMarket */ = {
 			isa = PBXGroup;
 			children = (
-				FFB8E99D26A1228200A5A1CC /* AppDelegate.swift */,
-				FFB8E99F26A1228200A5A1CC /* SceneDelegate.swift */,
-				FFB8E9A126A1228200A5A1CC /* HomeViewController.swift */,
-				FFB8E9CD26A1282400A5A1CC /* GoodsListCellNode.swift */,
-				FFB8E9A626A1228400A5A1CC /* Assets.xcassets */,
-				FFB8E9A826A1228400A5A1CC /* LaunchScreen.storyboard */,
-				FFB8E9AB26A1228400A5A1CC /* Info.plist */,
+				FF0437F326A18A1B00AEB63F /* Application */,
+				FF0437F026A189E100AEB63F /* Controllers */,
+				FF0437F226A189FF00AEB63F /* Nodes */,
+				FF0437F126A189FA00AEB63F /* Models */,
+				FF0437F426A18A4400AEB63F /* SupportingFiles */,
 			);
 			path = CarrotMarket;
 			sourceTree = "<group>";
@@ -579,7 +619,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HB2J52X7V7;
-				INFOPLIST_FILE = CarrotMarket/Info.plist;
+				INFOPLIST_FILE = CarrotMarket/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -599,7 +639,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HB2J52X7V7;
-				INFOPLIST_FILE = CarrotMarket/Info.plist;
+				INFOPLIST_FILE = CarrotMarket/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
