@@ -10,6 +10,8 @@
 		27AE06B93E1B42FF4EFFE4C0 /* Pods_CarrotMarketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30ADD8A62022EE6668F114A /* Pods_CarrotMarketTests.framework */; };
 		2BED2E20FF7F457480306665 /* Pods_CarrotMarket_CarrotMarketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2843DECF99CC7EAA4B1991D /* Pods_CarrotMarket_CarrotMarketUITests.framework */; };
 		A4D5851D56EE0EDA7A6A2F33 /* Pods_CarrotMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B509710C72C39DEC0744C3 /* Pods_CarrotMarket.framework */; };
+		FF0437F626A18C9E00AEB63F /* Goods.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0437F526A18C9E00AEB63F /* Goods.swift */; };
+		FF0437F826A198F900AEB63F /* ContectState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0437F726A198F900AEB63F /* ContectState.swift */; };
 		FFB8E99E26A1228200A5A1CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E99D26A1228200A5A1CC /* AppDelegate.swift */; };
 		FFB8E9A026A1228200A5A1CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E99F26A1228200A5A1CC /* SceneDelegate.swift */; };
 		FFB8E9A226A1228200A5A1CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E9A126A1228200A5A1CC /* HomeViewController.swift */; };
@@ -47,6 +49,8 @@
 		C2843DECF99CC7EAA4B1991D /* Pods_CarrotMarket_CarrotMarketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotMarket_CarrotMarketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E381C4C9A23E09366E72FE0D /* Pods-CarrotMarketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotMarketTests.release.xcconfig"; path = "Target Support Files/Pods-CarrotMarketTests/Pods-CarrotMarketTests.release.xcconfig"; sourceTree = "<group>"; };
 		F30ADD8A62022EE6668F114A /* Pods_CarrotMarketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotMarketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0437F526A18C9E00AEB63F /* Goods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goods.swift; sourceTree = "<group>"; };
+		FF0437F726A198F900AEB63F /* ContectState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContectState.swift; sourceTree = "<group>"; };
 		FFB8E99A26A1228200A5A1CC /* CarrotMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB8E99D26A1228200A5A1CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFB8E99F26A1228200A5A1CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 		FF0437F126A189FA00AEB63F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FF0437F526A18C9E00AEB63F /* Goods.swift */,
+				FF0437F726A198F900AEB63F /* ContectState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -445,9 +451,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0437F626A18C9E00AEB63F /* Goods.swift in Sources */,
 				FFB8E9CE26A1282400A5A1CC /* GoodsListCellNode.swift in Sources */,
 				FFB8E9A226A1228200A5A1CC /* HomeViewController.swift in Sources */,
 				FFB8E99E26A1228200A5A1CC /* AppDelegate.swift in Sources */,
+				FF0437F826A198F900AEB63F /* ContectState.swift in Sources */,
 				FFB8E9A026A1228200A5A1CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
