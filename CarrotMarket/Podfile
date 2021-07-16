@@ -8,6 +8,7 @@ target 'CarrotMarket' do
 	pod "Texture"
 	pod 'RxSwift', '6.2.0'
         pod 'RxCocoa', '6.2.0'
+	pod 'Then'
 
   # Pods for CarrotMarket
 

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,11 +12,12 @@
 		A4D5851D56EE0EDA7A6A2F33 /* Pods_CarrotMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B509710C72C39DEC0744C3 /* Pods_CarrotMarket.framework */; };
 		FFB8E99E26A1228200A5A1CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E99D26A1228200A5A1CC /* AppDelegate.swift */; };
 		FFB8E9A026A1228200A5A1CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E99F26A1228200A5A1CC /* SceneDelegate.swift */; };
-		FFB8E9A226A1228200A5A1CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E9A126A1228200A5A1CC /* ViewController.swift */; };
+		FFB8E9A226A1228200A5A1CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E9A126A1228200A5A1CC /* HomeViewController.swift */; };
 		FFB8E9A726A1228400A5A1CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB8E9A626A1228400A5A1CC /* Assets.xcassets */; };
 		FFB8E9AA26A1228400A5A1CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB8E9A826A1228400A5A1CC /* LaunchScreen.storyboard */; };
 		FFB8E9B526A1228400A5A1CC /* CarrotMarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E9B426A1228400A5A1CC /* CarrotMarketTests.swift */; };
 		FFB8E9C026A1228400A5A1CC /* CarrotMarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E9BF26A1228400A5A1CC /* CarrotMarketUITests.swift */; };
+		FFB8E9CE26A1282400A5A1CC /* GoodsListCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E9CD26A1282400A5A1CC /* GoodsListCellNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +50,7 @@
 		FFB8E99A26A1228200A5A1CC /* CarrotMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB8E99D26A1228200A5A1CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFB8E99F26A1228200A5A1CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FFB8E9A126A1228200A5A1CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFB8E9A126A1228200A5A1CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FFB8E9A626A1228400A5A1CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFB8E9A926A1228400A5A1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFB8E9AB26A1228400A5A1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		FFB8E9BB26A1228400A5A1CC /* CarrotMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB8E9BF26A1228400A5A1CC /* CarrotMarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotMarketUITests.swift; sourceTree = "<group>"; };
 		FFB8E9C126A1228400A5A1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB8E9CD26A1282400A5A1CC /* GoodsListCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsListCellNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,6 @@
 				ABF5B2481576324861CDA51F /* Pods-CarrotMarketTests.debug.xcconfig */,
 				E381C4C9A23E09366E72FE0D /* Pods-CarrotMarketTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,7 +141,8 @@
 			children = (
 				FFB8E99D26A1228200A5A1CC /* AppDelegate.swift */,
 				FFB8E99F26A1228200A5A1CC /* SceneDelegate.swift */,
-				FFB8E9A126A1228200A5A1CC /* ViewController.swift */,
+				FFB8E9A126A1228200A5A1CC /* HomeViewController.swift */,
+				FFB8E9CD26A1282400A5A1CC /* GoodsListCellNode.swift */,
 				FFB8E9A626A1228400A5A1CC /* Assets.xcassets */,
 				FFB8E9A826A1228400A5A1CC /* LaunchScreen.storyboard */,
 				FFB8E9AB26A1228400A5A1CC /* Info.plist */,
@@ -403,7 +405,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB8E9A226A1228200A5A1CC /* ViewController.swift in Sources */,
+				FFB8E9CE26A1282400A5A1CC /* GoodsListCellNode.swift in Sources */,
+				FFB8E9A226A1228200A5A1CC /* HomeViewController.swift in Sources */,
 				FFB8E99E26A1228200A5A1CC /* AppDelegate.swift in Sources */,
 				FFB8E9A026A1228200A5A1CC /* SceneDelegate.swift in Sources */,
 			);

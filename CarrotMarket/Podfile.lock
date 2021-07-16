@@ -40,11 +40,13 @@ PODS:
     - Texture/Core
   - Texture/Video (3.0.0):
     - Texture/Core
+  - Then (2.7.0)
 
 DEPENDENCIES:
   - RxCocoa (= 6.2.0)
   - RxSwift (= 6.2.0)
   - Texture
+  - Then
 
 SPEC REPOS:
   trunk:
@@ -55,6 +57,7 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - Texture
+    - Then
 
 SPEC CHECKSUMS:
   PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
@@ -64,7 +67,8 @@ SPEC CHECKSUMS:
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
   Texture: 2f109e937850d94d1d07232041c9c7313ccddb81
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
 
-PODFILE CHECKSUM: 037823e95addc018e7c1f41fb1f9c41e62ed8fdc
+PODFILE CHECKSUM: 70c1712f0a897d4ccdb1dbba5e22aa243119dc0b
 
 COCOAPODS: 1.10.1
