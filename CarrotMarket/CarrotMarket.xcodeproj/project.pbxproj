@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFB8E99E26A1228200A5A1CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E99D26A1228200A5A1CC /* AppDelegate.swift */; };
+		FFB8E9A026A1228200A5A1CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E99F26A1228200A5A1CC /* SceneDelegate.swift */; };
+		FFB8E9A226A1228200A5A1CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E9A126A1228200A5A1CC /* ViewController.swift */; };
+		FFB8E9A726A1228400A5A1CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB8E9A626A1228400A5A1CC /* Assets.xcassets */; };
+		FFB8E9AA26A1228400A5A1CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB8E9A826A1228400A5A1CC /* LaunchScreen.storyboard */; };
+		FFB8E9B526A1228400A5A1CC /* CarrotMarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E9B426A1228400A5A1CC /* CarrotMarketTests.swift */; };
+		FFB8E9C026A1228400A5A1CC /* CarrotMarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E9BF26A1228400A5A1CC /* CarrotMarketUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFB8E9B126A1228400A5A1CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB8E99226A1228200A5A1CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB8E99926A1228200A5A1CC;
+			remoteInfo = CarrotMarket;
+		};
+		FFB8E9BC26A1228400A5A1CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB8E99226A1228200A5A1CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB8E99926A1228200A5A1CC;
+			remoteInfo = CarrotMarket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFB8E99A26A1228200A5A1CC /* CarrotMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB8E99D26A1228200A5A1CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFB8E99F26A1228200A5A1CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFB8E9A126A1228200A5A1CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFB8E9A626A1228400A5A1CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFB8E9A926A1228400A5A1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFB8E9AB26A1228400A5A1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB8E9B026A1228400A5A1CC /* CarrotMarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotMarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB8E9B426A1228400A5A1CC /* CarrotMarketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotMarketTests.swift; sourceTree = "<group>"; };
+		FFB8E9B626A1228400A5A1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB8E9BB26A1228400A5A1CC /* CarrotMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB8E9BF26A1228400A5A1CC /* CarrotMarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotMarketUITests.swift; sourceTree = "<group>"; };
+		FFB8E9C126A1228400A5A1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFB8E99726A1228200A5A1CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB8E9AD26A1228400A5A1CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB8E9B826A1228400A5A1CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFB8E99126A1228200A5A1CC = {
+			isa = PBXGroup;
+			children = (
+				FFB8E99C26A1228200A5A1CC /* CarrotMarket */,
+				FFB8E9B326A1228400A5A1CC /* CarrotMarketTests */,
+				FFB8E9BE26A1228400A5A1CC /* CarrotMarketUITests */,
+				FFB8E99B26A1228200A5A1CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB8E99B26A1228200A5A1CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFB8E99A26A1228200A5A1CC /* CarrotMarket.app */,
+				FFB8E9B026A1228400A5A1CC /* CarrotMarketTests.xctest */,
+				FFB8E9BB26A1228400A5A1CC /* CarrotMarketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFB8E99C26A1228200A5A1CC /* CarrotMarket */ = {
+			isa = PBXGroup;
+			children = (
+				FFB8E99D26A1228200A5A1CC /* AppDelegate.swift */,
+				FFB8E99F26A1228200A5A1CC /* SceneDelegate.swift */,
+				FFB8E9A126A1228200A5A1CC /* ViewController.swift */,
+				FFB8E9A626A1228400A5A1CC /* Assets.xcassets */,
+				FFB8E9A826A1228400A5A1CC /* LaunchScreen.storyboard */,
+				FFB8E9AB26A1228400A5A1CC /* Info.plist */,
+			);
+			path = CarrotMarket;
+			sourceTree = "<group>";
+		};
+		FFB8E9B326A1228400A5A1CC /* CarrotMarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFB8E9B426A1228400A5A1CC /* CarrotMarketTests.swift */,
+				FFB8E9B626A1228400A5A1CC /* Info.plist */,
+			);
+			path = CarrotMarketTests;
+			sourceTree = "<group>";
+		};
+		FFB8E9BE26A1228400A5A1CC /* CarrotMarketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFB8E9BF26A1228400A5A1CC /* CarrotMarketUITests.swift */,
+				FFB8E9C126A1228400A5A1CC /* Info.plist */,
+			);
+			path = CarrotMarketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFB8E99926A1228200A5A1CC /* CarrotMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB8E9C426A1228400A5A1CC /* Build configuration list for PBXNativeTarget "CarrotMarket" */;
+			buildPhases = (
+				FFB8E99626A1228200A5A1CC /* Sources */,
+				FFB8E99726A1228200A5A1CC /* Frameworks */,
+				FFB8E99826A1228200A5A1CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarrotMarket;
+			productName = CarrotMarket;
+			productReference = FFB8E99A26A1228200A5A1CC /* CarrotMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFB8E9AF26A1228400A5A1CC /* CarrotMarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB8E9C726A1228400A5A1CC /* Build configuration list for PBXNativeTarget "CarrotMarketTests" */;
+			buildPhases = (
+				FFB8E9AC26A1228400A5A1CC /* Sources */,
+				FFB8E9AD26A1228400A5A1CC /* Frameworks */,
+				FFB8E9AE26A1228400A5A1CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFB8E9B226A1228400A5A1CC /* PBXTargetDependency */,
+			);
+			name = CarrotMarketTests;
+			productName = CarrotMarketTests;
+			productReference = FFB8E9B026A1228400A5A1CC /* CarrotMarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFB8E9BA26A1228400A5A1CC /* CarrotMarketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB8E9CA26A1228400A5A1CC /* Build configuration list for PBXNativeTarget "CarrotMarketUITests" */;
+			buildPhases = (
+				FFB8E9B726A1228400A5A1CC /* Sources */,
+				FFB8E9B826A1228400A5A1CC /* Frameworks */,
+				FFB8E9B926A1228400A5A1CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFB8E9BD26A1228400A5A1CC /* PBXTargetDependency */,
+			);
+			name = CarrotMarketUITests;
+			productName = CarrotMarketUITests;
+			productReference = FFB8E9BB26A1228400A5A1CC /* CarrotMarketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFB8E99226A1228200A5A1CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FFB8E99926A1228200A5A1CC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FFB8E9AF26A1228400A5A1CC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FFB8E99926A1228200A5A1CC;
+					};
+					FFB8E9BA26A1228400A5A1CC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FFB8E99926A1228200A5A1CC;
+					};
+				};
+			};
+			buildConfigurationList = FFB8E99526A1228200A5A1CC /* Build configuration list for PBXProject "CarrotMarket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFB8E99126A1228200A5A1CC;
+			productRefGroup = FFB8E99B26A1228200A5A1CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFB8E99926A1228200A5A1CC /* CarrotMarket */,
+				FFB8E9AF26A1228400A5A1CC /* CarrotMarketTests */,
+				FFB8E9BA26A1228400A5A1CC /* CarrotMarketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFB8E99826A1228200A5A1CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB8E9AA26A1228400A5A1CC /* LaunchScreen.storyboard in Resources */,
+				FFB8E9A726A1228400A5A1CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB8E9AE26A1228400A5A1CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB8E9B926A1228400A5A1CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFB8E99626A1228200A5A1CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB8E9A226A1228200A5A1CC /* ViewController.swift in Sources */,
+				FFB8E99E26A1228200A5A1CC /* AppDelegate.swift in Sources */,
+				FFB8E9A026A1228200A5A1CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB8E9AC26A1228400A5A1CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB8E9B526A1228400A5A1CC /* CarrotMarketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB8E9B726A1228400A5A1CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB8E9C026A1228400A5A1CC /* CarrotMarketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFB8E9B226A1228400A5A1CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFB8E99926A1228200A5A1CC /* CarrotMarket */;
+			targetProxy = FFB8E9B126A1228400A5A1CC /* PBXContainerItemProxy */;
+		};
+		FFB8E9BD26A1228400A5A1CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFB8E99926A1228200A5A1CC /* CarrotMarket */;
+			targetProxy = FFB8E9BC26A1228400A5A1CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFB8E9A826A1228400A5A1CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB8E9A926A1228400A5A1CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFB8E9C226A1228400A5A1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFB8E9C326A1228400A5A1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFB8E9C526A1228400A5A1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB2J52X7V7;
+				INFOPLIST_FILE = CarrotMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dumba.CarrotMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFB8E9C626A1228400A5A1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB2J52X7V7;
+				INFOPLIST_FILE = CarrotMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dumba.CarrotMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFB8E9C826A1228400A5A1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB2J52X7V7;
+				INFOPLIST_FILE = CarrotMarketTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dumba.CarrotMarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarrotMarket.app/CarrotMarket";
+			};
+			name = Debug;
+		};
+		FFB8E9C926A1228400A5A1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB2J52X7V7;
+				INFOPLIST_FILE = CarrotMarketTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dumba.CarrotMarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarrotMarket.app/CarrotMarket";
+			};
+			name = Release;
+		};
+		FFB8E9CB26A1228400A5A1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB2J52X7V7;
+				INFOPLIST_FILE = CarrotMarketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dumba.CarrotMarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarrotMarket;
+			};
+			name = Debug;
+		};
+		FFB8E9CC26A1228400A5A1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB2J52X7V7;
+				INFOPLIST_FILE = CarrotMarketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dumba.CarrotMarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarrotMarket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFB8E99526A1228200A5A1CC /* Build configuration list for PBXProject "CarrotMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB8E9C226A1228400A5A1CC /* Debug */,
+				FFB8E9C326A1228400A5A1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB8E9C426A1228400A5A1CC /* Build configuration list for PBXNativeTarget "CarrotMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB8E9C526A1228400A5A1CC /* Debug */,
+				FFB8E9C626A1228400A5A1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB8E9C726A1228400A5A1CC /* Build configuration list for PBXNativeTarget "CarrotMarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB8E9C826A1228400A5A1CC /* Debug */,
+				FFB8E9C926A1228400A5A1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB8E9CA26A1228400A5A1CC /* Build configuration list for PBXNativeTarget "CarrotMarketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB8E9CB26A1228400A5A1CC /* Debug */,
+				FFB8E9CC26A1228400A5A1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFB8E99226A1228200A5A1CC /* Project object */;
+}
