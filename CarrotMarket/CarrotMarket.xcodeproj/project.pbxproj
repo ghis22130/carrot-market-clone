@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27AE06B93E1B42FF4EFFE4C0 /* Pods_CarrotMarketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30ADD8A62022EE6668F114A /* Pods_CarrotMarketTests.framework */; };
+		2BED2E20FF7F457480306665 /* Pods_CarrotMarket_CarrotMarketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2843DECF99CC7EAA4B1991D /* Pods_CarrotMarket_CarrotMarketUITests.framework */; };
+		A4D5851D56EE0EDA7A6A2F33 /* Pods_CarrotMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B509710C72C39DEC0744C3 /* Pods_CarrotMarket.framework */; };
 		FFB8E99E26A1228200A5A1CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E99D26A1228200A5A1CC /* AppDelegate.swift */; };
 		FFB8E9A026A1228200A5A1CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E99F26A1228200A5A1CC /* SceneDelegate.swift */; };
 		FFB8E9A226A1228200A5A1CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E9A126A1228200A5A1CC /* ViewController.swift */; };
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2259646BC9589EB528F52CB5 /* Pods-CarrotMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotMarket.debug.xcconfig"; path = "Target Support Files/Pods-CarrotMarket/Pods-CarrotMarket.debug.xcconfig"; sourceTree = "<group>"; };
+		28D51CEAB119E6F37CB14C08 /* Pods-CarrotMarket-CarrotMarketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotMarket-CarrotMarketUITests.debug.xcconfig"; path = "Target Support Files/Pods-CarrotMarket-CarrotMarketUITests/Pods-CarrotMarket-CarrotMarketUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		775AB91BFEA1BA5516E4A243 /* Pods-CarrotMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotMarket.release.xcconfig"; path = "Target Support Files/Pods-CarrotMarket/Pods-CarrotMarket.release.xcconfig"; sourceTree = "<group>"; };
+		7A3C917D6E1186F49428AB47 /* Pods-CarrotMarket-CarrotMarketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotMarket-CarrotMarketUITests.release.xcconfig"; path = "Target Support Files/Pods-CarrotMarket-CarrotMarketUITests/Pods-CarrotMarket-CarrotMarketUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91B509710C72C39DEC0744C3 /* Pods_CarrotMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF5B2481576324861CDA51F /* Pods-CarrotMarketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotMarketTests.debug.xcconfig"; path = "Target Support Files/Pods-CarrotMarketTests/Pods-CarrotMarketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2843DECF99CC7EAA4B1991D /* Pods_CarrotMarket_CarrotMarketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotMarket_CarrotMarketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E381C4C9A23E09366E72FE0D /* Pods-CarrotMarketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotMarketTests.release.xcconfig"; path = "Target Support Files/Pods-CarrotMarketTests/Pods-CarrotMarketTests.release.xcconfig"; sourceTree = "<group>"; };
+		F30ADD8A62022EE6668F114A /* Pods_CarrotMarketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotMarketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB8E99A26A1228200A5A1CC /* CarrotMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB8E99D26A1228200A5A1CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFB8E99F26A1228200A5A1CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D5851D56EE0EDA7A6A2F33 /* Pods_CarrotMarket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AE06B93E1B42FF4EFFE4C0 /* Pods_CarrotMarketTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BED2E20FF7F457480306665 /* Pods_CarrotMarket_CarrotMarketUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CBE47392FBE7A8E527908E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2259646BC9589EB528F52CB5 /* Pods-CarrotMarket.debug.xcconfig */,
+				775AB91BFEA1BA5516E4A243 /* Pods-CarrotMarket.release.xcconfig */,
+				28D51CEAB119E6F37CB14C08 /* Pods-CarrotMarket-CarrotMarketUITests.debug.xcconfig */,
+				7A3C917D6E1186F49428AB47 /* Pods-CarrotMarket-CarrotMarketUITests.release.xcconfig */,
+				ABF5B2481576324861CDA51F /* Pods-CarrotMarketTests.debug.xcconfig */,
+				E381C4C9A23E09366E72FE0D /* Pods-CarrotMarketTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5613693D75E92F7A1778D36C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91B509710C72C39DEC0744C3 /* Pods_CarrotMarket.framework */,
+				C2843DECF99CC7EAA4B1991D /* Pods_CarrotMarket_CarrotMarketUITests.framework */,
+				F30ADD8A62022EE6668F114A /* Pods_CarrotMarketTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FFB8E99126A1228200A5A1CC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				FFB8E9B326A1228400A5A1CC /* CarrotMarketTests */,
 				FFB8E9BE26A1228400A5A1CC /* CarrotMarketUITests */,
 				FFB8E99B26A1228200A5A1CC /* Products */,
+				1CBE47392FBE7A8E527908E5 /* Pods */,
+				5613693D75E92F7A1778D36C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFB8E9C426A1228400A5A1CC /* Build configuration list for PBXNativeTarget "CarrotMarket" */;
 			buildPhases = (
+				44EBC6B63A421711B90A42A6 /* [CP] Check Pods Manifest.lock */,
 				FFB8E99626A1228200A5A1CC /* Sources */,
 				FFB8E99726A1228200A5A1CC /* Frameworks */,
 				FFB8E99826A1228200A5A1CC /* Resources */,
+				FD52A7467FFC403864E2B16C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFB8E9C726A1228400A5A1CC /* Build configuration list for PBXNativeTarget "CarrotMarketTests" */;
 			buildPhases = (
+				9C3DA0467DDD14C007577813 /* [CP] Check Pods Manifest.lock */,
 				FFB8E9AC26A1228400A5A1CC /* Sources */,
 				FFB8E9AD26A1228400A5A1CC /* Frameworks */,
 				FFB8E9AE26A1228400A5A1CC /* Resources */,
@@ -167,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFB8E9CA26A1228400A5A1CC /* Build configuration list for PBXNativeTarget "CarrotMarketUITests" */;
 			buildPhases = (
+				CC71CE495A1729C632C4716A /* [CP] Check Pods Manifest.lock */,
 				FFB8E9B726A1228400A5A1CC /* Sources */,
 				FFB8E9B826A1228400A5A1CC /* Frameworks */,
 				FFB8E9B926A1228400A5A1CC /* Resources */,
+				ECEA46C9D1B186806CCB228D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +294,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44EBC6B63A421711B90A42A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarrotMarket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C3DA0467DDD14C007577813 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarrotMarketTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC71CE495A1729C632C4716A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarrotMarket-CarrotMarketUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECEA46C9D1B186806CCB228D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrotMarket-CarrotMarketUITests/Pods-CarrotMarket-CarrotMarketUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrotMarket-CarrotMarketUITests/Pods-CarrotMarket-CarrotMarketUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarrotMarket-CarrotMarketUITests/Pods-CarrotMarket-CarrotMarketUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD52A7467FFC403864E2B16C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrotMarket/Pods-CarrotMarket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrotMarket/Pods-CarrotMarket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarrotMarket/Pods-CarrotMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FFB8E99626A1228200A5A1CC /* Sources */ = {
@@ -421,6 +570,7 @@
 		};
 		FFB8E9C526A1228400A5A1CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2259646BC9589EB528F52CB5 /* Pods-CarrotMarket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +590,7 @@
 		};
 		FFB8E9C626A1228400A5A1CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775AB91BFEA1BA5516E4A243 /* Pods-CarrotMarket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +610,7 @@
 		};
 		FFB8E9C826A1228400A5A1CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF5B2481576324861CDA51F /* Pods-CarrotMarketTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,6 +633,7 @@
 		};
 		FFB8E9C926A1228400A5A1CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E381C4C9A23E09366E72FE0D /* Pods-CarrotMarketTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -503,6 +656,7 @@
 		};
 		FFB8E9CB26A1228400A5A1CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D51CEAB119E6F37CB14C08 /* Pods-CarrotMarket-CarrotMarketUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +677,7 @@
 		};
 		FFB8E9CC26A1228400A5A1CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3C917D6E1186F49428AB47 /* Pods-CarrotMarket-CarrotMarketUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
