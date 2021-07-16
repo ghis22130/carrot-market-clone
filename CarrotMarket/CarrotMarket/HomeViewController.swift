@@ -16,11 +16,15 @@ struct Goods {
     let location: String
     let time: String
     let price: Int
+    let contectState: String
 }
 
 class HomeViewController: ASDKViewController<ASTableNode> {
 
-    let goods: [Goods] = [Goods(id: 0, title: "고사양 게임용 컴퓨터 팔아요", location: "화양동", time: "10초전", price: 790000), Goods(id: 1, title: "2", location: "32", time: "123", price: 123)]
+    let goods: [Goods] = [Goods(id: 0, title: "고사양 게임용 컴퓨터 팔아요 고사양 게임용 컴퓨터 팔아요 고사양 게임용 컴퓨터 팔아요 고사양 게임용 컴퓨터 팔아요", location: "화양동", time: "10초전", price: 790000, contectState: "(하트) 3"),
+                          Goods(id: 1, title: "2", location: "32", time: "123", price: 123, contectState: "(하트) 3"),
+                          Goods(id: 2, title: "아메리카노 2잔 판매합니다", location: "군자동", time: "20분 전", price: 19000, contectState: "(하트) 3")
+    ]
     
     override init() {
         super.init(node: ASTableNode())
