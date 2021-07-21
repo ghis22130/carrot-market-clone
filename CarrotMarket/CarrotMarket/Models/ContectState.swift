@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ContectState {
+struct ContectState: Decodable {
     let comments: Int
     let chat: Int
     let interest: Int

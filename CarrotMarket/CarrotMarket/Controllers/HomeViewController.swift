@@ -11,14 +11,14 @@ import RxSwift
 import RxCocoa
 
 class HomeViewController: ASDKViewController<ASTableNode> {
-
-    let goods: [Goods] = []
+    
+    var disposeBag = DisposeBag()
+    var viewModel = HomeViewModel()
     
     override init() {
         super.init(node: ASTableNode())
         self.node.insetsLayoutMarginsFromSafeArea = true
         self.node.dataSource = self
-        
     }
     
     required init?(coder: NSCoder) {
@@ -27,6 +27,7 @@ class HomeViewController: ASDKViewController<ASTableNode> {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
 
 
@@ -34,12 +35,25 @@ class HomeViewController: ASDKViewController<ASTableNode> {
 
 extension HomeViewController: ASTableDataSource {
     func tableNode(_ tableNode: ASTableNode, numberOfRowsInSection section: Int) -> Int {
-        goods.count
+        var count = 0
+        
+        viewModel.allGoods
+            .subscribe { goods in
+                count = goods.element?.count ?? 0 }
+            .disposed(by: disposeBag)
+        
+        return count
     }
     
     func tableNode(_ tableNode: ASTableNode, nodeBlockForRowAt indexPath: IndexPath) -> ASCellNodeBlock {
-        let item = goods[indexPath.row]
         return {
+            var item: ViewGoods?
+            
+            self.viewModel.allGoods
+                .subscribe { goods in
+                    item = goods.element?.compactMap{ $0 }[indexPath.row]
+                }.disposed(by: self.disposeBag)
+            
             return GoodsListCellNode(with: item)
         }
     }

@@ -5,13 +5,14 @@
 //  Created by 지북 on 2021/07/16.
 //
 
-import Foundation
 import AsyncDisplayKit
 import RxSwift
 import RxCocoa
 import Then
 
 class GoodsListCellNode: ASCellNode {
+    static let identifier = "GoodsListCellNode"
+    
     typealias Node = GoodsListCellNode
     
     var goodsImageNode = ASNetworkImageNode().then {
@@ -37,13 +38,16 @@ class GoodsListCellNode: ASCellNode {
         $0.maximumNumberOfLines = 1
     }
     
-    init(with item: Goods) {
+    init(with item: ViewGoods?) {
         super.init()
+        
+        guard let item = item else { return }
+        
         self.automaticallyManagesSubnodes = true
         self.automaticallyRelayoutOnSafeAreaChanges = true
         self.titleNode.attributedText = NSAttributedString(string: item.title,
                                                            attributes: Node.titleAttributes)
-        self.locationAndTimeNode.attributedText = NSAttributedString(string: item.location,
+        self.locationAndTimeNode.attributedText = NSAttributedString(string: item.locationAndTime,
                                                                      attributes: Node.locationAndTimeAttributes)
         self.priceNode.attributedText = NSAttributedString(string: "\(item.price)",
                                                            attributes: Node.priceAttributes)

@@ -31,7 +31,7 @@ class NetworkService {
                     
                     emitter.onNext(data)
                     emitter.onCompleted()
-                }
+                }.resume()
                 
             } catch {
                 emitter.onError(NetworkError.invalidURL)
