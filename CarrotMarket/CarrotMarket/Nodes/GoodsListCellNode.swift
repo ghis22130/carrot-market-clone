@@ -45,14 +45,15 @@ class GoodsListCellNode: ASCellNode {
         
         self.automaticallyManagesSubnodes = true
         self.automaticallyRelayoutOnSafeAreaChanges = true
+        self.goodsImageNode.url = URL(string: item.imgURL)
         self.titleNode.attributedText = NSAttributedString(string: item.title,
                                                            attributes: Node.titleAttributes)
         self.locationAndTimeNode.attributedText = NSAttributedString(string: item.locationAndTime,
                                                                      attributes: Node.locationAndTimeAttributes)
         self.priceNode.attributedText = NSAttributedString(string: "\(item.price)",
                                                            attributes: Node.priceAttributes)
-        self.contectStateNode.attributedText = NSAttributedString(string: "\(item.contectState)",
-                                                                  attributes: Node.contectStateAttributes)
+        self.contectStateNode.attributedText = item.contectState
+                                                .reduce(NSMutableAttributedString()) { $0.stateText(with: $1, attributes: Node.contectStateAttributes) }
     }
     
 }

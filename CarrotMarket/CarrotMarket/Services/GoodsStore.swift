@@ -27,7 +27,7 @@ class GoodsStore {
     
     static func fetchGoodsStatic() -> Observable<[Goods]> {
         let bundle = Bundle.main
-        let url = bundle.url(forResource: "feed", withExtension: "json")!
+        let url = bundle.url(forResource: "GoodsList", withExtension: "json")!
 
         return NetworkService.shared.get(url: url)
             .map { data in

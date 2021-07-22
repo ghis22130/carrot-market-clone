@@ -8,7 +8,7 @@
 import Foundation
 
 struct ContectState: Decodable {
-    let comments: Int
-    let chat: Int
-    let interest: Int
+    let comments: Int?
+    let chat: Int?
+    let interest: Int?
 }

@@ -7,7 +7,7 @@
         "time": "a",
         "price": 50000,
         "contectState": {
-            "comments": 0,
+            "comments": null,
             "chat": 58,
             "interest": 25
         }
@@ -20,7 +20,7 @@
         "time": "a",
         "price": 100000,
         "contectState": {
-            "comments": 0,
+            "comments": null,
             "chat": 20,
             "interest": 4
         }
@@ -33,7 +33,7 @@
         "time": "a",
         "price": 99999999,
         "contectState": {
-            "comments": 0,
+            "comments": null,
             "chat": 20,
             "interest": 4
         }
@@ -46,7 +46,7 @@
         "time": "a",
         "price": 100000,
         "contectState": {
-            "comments": 0,
+            "comments": null,
             "chat": 20,
             "interest": 12
         }
@@ -59,7 +59,7 @@
         "time": "a",
         "price": 100000,
         "contectState": {
-            "comments": 0,
+            "comments": null,
             "chat": 23,
             "interest": 8
         }
@@ -72,7 +72,7 @@
         "time": "a",
         "price": 20000,
         "contectState": {
-            "comments": 0,
+            "comments": null,
             "chat": 12,
             "interest": 8
         }
@@ -85,7 +85,7 @@
         "time": "a",
         "price": 10000,
         "contectState": {
-            "comments": 0,
+            "comments": null,
             "chat": 15,
             "interest": 9
         }
@@ -98,7 +98,7 @@
         "time": "a",
         "price": 75000,
         "contectState": {
-            "comments": 0,
+            "comments": null,
             "chat": 49,
             "interest": 21
         }
