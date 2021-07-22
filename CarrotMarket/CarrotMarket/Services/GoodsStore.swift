@@ -25,4 +25,18 @@ class GoodsStore {
             }
     }
     
+    static func fetchGoodsStatic() -> Observable<[Goods]> {
+        let bundle = Bundle.main
+        let url = bundle.url(forResource: "feed", withExtension: "json")!
+
+        return NetworkService.shared.get(url: url)
+            .map { data in
+
+                guard let response = try? JSONDecoder().decode([Goods].self, from: data) else {
+                    throw NSError(domain: "Decoding error", code: -1, userInfo: nil)
+                }
+                return response
+            }
+    }
+    
 }

@@ -40,6 +40,26 @@ class NetworkService {
             return Disposables.create()
         }.asSingle()
     }
+    
+    func get(url: URL) -> Observable<Data> {
+        return Observable.create { emitter in
+                URLSession.shared.dataTask(with: url) { data, res, err in
+                    if let err = err {
+                        emitter.onError(err)
+                    }
+                    
+                    guard let data = data else {
+                        emitter.onError(NetworkError.dataFileReadFailed)
+                        return
+                    }
+                    
+                    emitter.onNext(data)
+                    emitter.onCompleted()
+                }.resume()
+    
+            return Disposables.create()
+        }
+    }
 }
 
 enum NetworkError: Error {

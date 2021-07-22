@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 
 class HomeViewController: ASDKViewController<ASTableNode> {
-    
+    	
     var disposeBag = DisposeBag()
     var viewModel = HomeViewModel()
     
@@ -28,6 +28,11 @@ class HomeViewController: ASDKViewController<ASTableNode> {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        viewModel.allGoods
+            .subscribe(onNext: { [weak self] _ in
+                self?.node.reloadData()
+            })
+            .disposed(by: disposeBag)
     }
 
 

@@ -13,7 +13,7 @@ struct Goods: Decodable {
     let title: String
     let location: String
     let time: String
-    let price: String
+    let price: Int
     let contectState: ContectState
 }
 

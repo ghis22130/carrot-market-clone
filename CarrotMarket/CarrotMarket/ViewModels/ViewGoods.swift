@@ -18,10 +18,10 @@ struct ViewGoods {
         self.id = goods.id
         self.title = goods.title
         self.locationAndTime = [goods.location, goods.time].joined(separator: " · ")
-        self.price = goods.price
-        self.contectState = [.chat: goods.contectState.chat,
-                                 .comments: goods.contectState.comments,
-                                 .interest: goods.contectState.interest]
+        self.price = "\(goods.price)"
+        self.contectState = [.chat: goods.contectState?.chat ?? 0,
+                                 .comments: goods.contectState?.comments ?? 0,
+                                 .interest: goods.contectState?.interest ?? 0]
     }
 }
 
