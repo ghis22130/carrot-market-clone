@@ -21,7 +21,7 @@ struct ViewGoods {
         self.title = goods.title
         self.locationAndTime = [goods.location
                                 , goods.time.intervalNow()].joined(separator: " · ")
-        self.price = "\(goods.price)"
+        self.price = goods.price.currencyKR()
         self.contectState = goods.state.toContectState()
     }
 }

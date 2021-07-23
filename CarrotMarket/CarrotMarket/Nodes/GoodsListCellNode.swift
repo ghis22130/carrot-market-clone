@@ -50,7 +50,7 @@ class GoodsListCellNode: ASCellNode {
                                                            attributes: Node.titleAttributes)
         self.locationAndTimeNode.attributedText = NSAttributedString(string: item.locationAndTime,
                                                                      attributes: Node.locationAndTimeAttributes)
-        self.priceNode.attributedText = NSAttributedString(string: "\(item.price)",
+        self.priceNode.attributedText = NSAttributedString(string: item.price,
                                                            attributes: Node.priceAttributes)
         self.contectStateNode.attributedText = item.contectState
                                                 .reduce(NSMutableAttributedString()) { $0.stateText(with: $1, attributes: Node.contectStateAttributes) }
