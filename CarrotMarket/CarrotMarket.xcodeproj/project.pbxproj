@@ -23,6 +23,8 @@
 		FFB8E9C026A1228400A5A1CC /* CarrotMarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E9BF26A1228400A5A1CC /* CarrotMarketUITests.swift */; };
 		FFB8E9CE26A1282400A5A1CC /* GoodsListCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8E9CD26A1282400A5A1CC /* GoodsListCellNode.swift */; };
 		FFCC2C5526A9733C00EF0745 /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC2C5426A9733C00EF0745 /* NSMutableAttributedString+Extension.swift */; };
+		FFCC2C5726A994B500EF0745 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC2C5626A994B500EF0745 /* Date+Extension.swift */; };
+		FFCC2C5A26AA4CA400EF0745 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC2C5926AA4CA400EF0745 /* State.swift */; };
 		FFCD057326A675A100AF76FE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD057226A675A100AF76FE /* NetworkService.swift */; };
 		FFCD057526A67DA800AF76FE /* GoodsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD057426A67DA800AF76FE /* GoodsStore.swift */; };
 		FFE4B8C826A814D900753160 /* GoodsList.json in Resources */ = {isa = PBXBuildFile; fileRef = FFE4B8C726A814D900753160 /* GoodsList.json */; };
@@ -74,6 +76,8 @@
 		FFB8E9C126A1228400A5A1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFB8E9CD26A1282400A5A1CC /* GoodsListCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsListCellNode.swift; sourceTree = "<group>"; };
 		FFCC2C5426A9733C00EF0745 /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		FFCC2C5626A994B500EF0745 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		FFCC2C5926AA4CA400EF0745 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		FFCD057226A675A100AF76FE /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		FFCD057426A67DA800AF76FE /* GoodsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsStore.swift; sourceTree = "<group>"; };
 		FFE4B8C726A814D900753160 /* GoodsList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GoodsList.json; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 			children = (
 				FF0437F526A18C9E00AEB63F /* Goods.swift */,
 				FF0437F726A198F900AEB63F /* ContectState.swift */,
+				FFCC2C5926AA4CA400EF0745 /* State.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				FFCC2C5426A9733C00EF0745 /* NSMutableAttributedString+Extension.swift */,
+				FFCC2C5626A994B500EF0745 /* Date+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -499,10 +505,12 @@
 				FF0437FD26A2B92A00AEB63F /* ViewGoods.swift in Sources */,
 				FFB8E9CE26A1282400A5A1CC /* GoodsListCellNode.swift in Sources */,
 				FF0437FB26A19F0400AEB63F /* HomeViewModel.swift in Sources */,
+				FFCC2C5726A994B500EF0745 /* Date+Extension.swift in Sources */,
 				FFCD057326A675A100AF76FE /* NetworkService.swift in Sources */,
 				FFCC2C5526A9733C00EF0745 /* NSMutableAttributedString+Extension.swift in Sources */,
 				FFB8E9A226A1228200A5A1CC /* HomeViewController.swift in Sources */,
 				FFB8E99E26A1228200A5A1CC /* AppDelegate.swift in Sources */,
+				FFCC2C5A26AA4CA400EF0745 /* State.swift in Sources */,
 				FF0437F826A198F900AEB63F /* ContectState.swift in Sources */,
 				FFB8E9A026A1228200A5A1CC /* SceneDelegate.swift in Sources */,
 			);

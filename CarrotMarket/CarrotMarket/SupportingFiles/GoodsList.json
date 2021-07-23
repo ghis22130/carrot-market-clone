@@ -1,12 +1,12 @@
 [
     {
         "id": 0,
-        "imgUrl": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/14A888009E4027B7B3D2E6235335AD6476468FE3798B01465DF3139E40A68C26.jpg?q=82&s=300x300&t=crop",
+        "image_url": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/14A888009E4027B7B3D2E6235335AD6476468FE3798B01465DF3139E40A68C26.jpg?q=82&s=300x300&t=crop",
         "title": "냉장고 판매",
         "location": "약수동",
-        "time": "a",
+        "time": "2021-07-23T17:20:00Z",
         "price": 50000,
-        "contectState": {
+        "contect_state": {
             "comments": null,
             "chat": 58,
             "interest": 25
@@ -14,12 +14,12 @@
     },
     {
         "id": 1,
-        "imgUrl": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/c06c2b50106e2b797be0d02ab088f8bd992755f8f836e1a5abcac42a8c290f9b.webp?q=82&s=300x300&t=crop",
+        "image_url": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/c06c2b50106e2b797be0d02ab088f8bd992755f8f836e1a5abcac42a8c290f9b.webp?q=82&s=300x300&t=crop",
         "title": "이동식 에어컨 팝니다.(난방제습가능)",
         "location": "백석동",
-        "time": "a",
+        "time": "2021-07-22T20:53:00Z",
         "price": 100000,
-        "contectState": {
+        "contect_state": {
             "comments": null,
             "chat": 20,
             "interest": 4
@@ -27,12 +27,12 @@
     },
     {
         "id": 2,
-        "imgUrl": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/B3C112264B22FF0AB22556F2E1A5631F5378F44B07A19D88C38F9FF7F23AF2F1.jpg?q=82&s=300x300&t=crop",
+        "image_url": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/B3C112264B22FF0AB22556F2E1A5631F5378F44B07A19D88C38F9FF7F23AF2F1.jpg?q=82&s=300x300&t=crop",
         "title": "우드 선반 3단 무료드림",
         "location": "동문동",
-        "time": "a",
+        "time": "2021-07-22T20:53:00Z",
         "price": 99999999,
-        "contectState": {
+        "contect_state": {
             "comments": null,
             "chat": 20,
             "interest": 4
@@ -40,12 +40,12 @@
     },
     {
         "id": 3,
-        "imgUrl": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/9cfe617d45958114b76dc9b19b1c4b71f65fe7a70094f870cb764485deb9ff7e.webp?q=82&s=300x300&t=crop",
+        "image_url": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/9cfe617d45958114b76dc9b19b1c4b71f65fe7a70094f870cb764485deb9ff7e.webp?q=82&s=300x300&t=crop",
         "title": "스트라이다 자전거",
         "location": "상수동",
-        "time": "a",
+        "time": "2021-07-22T20:53:00Z",
         "price": 100000,
-        "contectState": {
+        "contect_state": {
             "comments": null,
             "chat": 20,
             "interest": 12
@@ -53,12 +53,12 @@
     },
     {
         "id": 4,
-        "imgUrl": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/6ae4fe8252d4c78efeed57bc9a3d8435c8ef8025cacb171f5dd3ac5d860c6757.webp?q=82&s=300x300&t=crop",
+        "image_url": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/6ae4fe8252d4c78efeed57bc9a3d8435c8ef8025cacb171f5dd3ac5d860c6757.webp?q=82&s=300x300&t=crop",
         "title": "내친구 과학공룡 전권과 활동자료",
         "location": "위례동",
-        "time": "a",
+        "time": "2021-07-22T20:53:00Z",
         "price": 100000,
-        "contectState": {
+        "contect_state": {
             "comments": null,
             "chat": 23,
             "interest": 8
@@ -66,12 +66,12 @@
     },
     {
         "id": 5,
-        "imgUrl": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/F18DDA948345890C7DA779CF2D5D81552C379DB347D200601929EC160766DE6B.jpg?q=82&s=300x300&t=crop",
+        "image_url": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/F18DDA948345890C7DA779CF2D5D81552C379DB347D200601929EC160766DE6B.jpg?q=82&s=300x300&t=crop",
         "title": "알루미늄 야외테이블 캠핑테이블",
         "location": "조천읍",
-        "time": "a",
+        "time": "2021-07-22T20:53:00Z",
         "price": 20000,
-        "contectState": {
+        "contect_state": {
             "comments": null,
             "chat": 12,
             "interest": 8
@@ -79,12 +79,12 @@
     },
     {
         "id": 6,
-        "imgUrl": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/BD27C09D4CD4AEDDFE7CB7580BC841A022355230E8EEDE060724D4276E28BA43.jpg?q=82&s=300x300&t=crop",
+        "image_url": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/BD27C09D4CD4AEDDFE7CB7580BC841A022355230E8EEDE060724D4276E28BA43.jpg?q=82&s=300x300&t=crop",
         "title": "스피드랙 3단 선반",
         "location": "수지구 상현동",
-        "time": "a",
+        "time": "2021-07-22T20:53:00Z",
         "price": 10000,
-        "contectState": {
+        "contect_state": {
             "comments": null,
             "chat": 15,
             "interest": 9
@@ -92,12 +92,12 @@
     },
     {
         "id": 7,
-        "imgUrl": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/53A58F1D9ADAA9EFEAAC95013DBCEAAF2C370AE23F6C32B65915D2DC8FEF95BE.jpg?q=82&s=300x300&t=crop",
+        "image_url": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/53A58F1D9ADAA9EFEAAC95013DBCEAAF2C370AE23F6C32B65915D2DC8FEF95BE.jpg?q=82&s=300x300&t=crop",
         "title": "S21+ 판매합니다.",
         "location": "부송동",
-        "time": "a",
+        "time": "2021-07-22T20:53:00Z",
         "price": 75000,
-        "contectState": {
+        "contect_state": {
             "comments": null,
             "chat": 49,
             "interest": 21

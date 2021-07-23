@@ -29,6 +29,7 @@ class HomeViewController: ASDKViewController<ASTableNode> {
         super.viewDidLoad()
         
         viewModel.allGoods
+            .subscribe(on: MainScheduler.asyncInstance)
             .subscribe(onNext: { [weak self] _ in
                 self?.node.reloadData()
             })

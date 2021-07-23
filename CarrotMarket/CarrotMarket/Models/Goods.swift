@@ -12,8 +12,18 @@ struct Goods: Decodable {
     let imgUrl: String
     let title: String
     let location: String
-    let time: String
+    let time: Date
     let price: Int
-    let contectState: ContectState
+    let state: State
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case imgUrl = "image_url"
+        case title
+        case location
+        case time
+        case price
+        case state = "contect_state"
+    }
 }
 

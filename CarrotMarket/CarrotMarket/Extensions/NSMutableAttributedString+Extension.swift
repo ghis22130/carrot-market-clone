@@ -9,7 +9,7 @@ import UIKit
 
 extension NSMutableAttributedString {
     
-    func stateText(with state: State, attributes: [NSAttributedString.Key:Any]) -> NSMutableAttributedString {
+    func stateText(with state: ContectState, attributes: [NSAttributedString.Key:Any]) -> NSMutableAttributedString {
         guard let value = state.value else { return self }
         
         let imageAttachment = NSTextAttachment()
