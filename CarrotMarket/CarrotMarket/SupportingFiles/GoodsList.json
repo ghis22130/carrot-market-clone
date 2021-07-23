@@ -102,5 +102,57 @@
             "chat": 49,
             "interest": 21
         }
+    },
+    {
+        "id": 8,
+        "image_url": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/EE882135778AACABB5729DFACBD09DE5169B6AEEA2720F2CD072F9BE7353ECFC.jpg?q=82&s=300x300&t=crop",
+        "title": "마이크로킥보드 맥시 - 제품 상태 최상",
+        "location": "유아동",
+        "time": "2021-07-22T20:53:00Z",
+        "price": 80000,
+        "contect_state": {
+            "comments": null,
+            "chat": 49,
+            "interest": 21
+        }
+    },
+    {
+        "id": 9,
+        "image_url": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/5bdc0dc3b3eec442d19c3fd8b15f0bc7542e28260399aed25ded13763d041855.webp?q=82&s=300x300&t=crop",
+        "title": "턱걸이 입니다.",
+        "location": "안성시 공도읍",
+        "time": "2021-07-22T20:53:00Z",
+        "price": 20000,
+        "contect_state": {
+            "comments": null,
+            "chat": 16,
+            "interest": 6
+        }
+    },
+    {
+        "id": 10,
+        "image_url": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/b3c6fd8b84af3a564b90addef987406c8f362523ae2ba42ed370e3f1b2bfbc26.webp?q=82&s=300x300&t=crop",
+        "title": "신일 이동식 에어컨 판매합니다.",
+        "location": "수영구 망미동",
+        "time": "2021-07-22T20:53:00Z",
+        "price": 170000,
+        "contect_state": {
+            "comments": null,
+            "chat": 7,
+            "interest": 4
+        }
+    },
+    {
+        "id": 11,
+        "image_url": "https://dnvefa72aowie.cloudfront.net/origin/article/202107/a14cc62e24e3e21a25702114f2823558a5486b0be3f9d3b017b6fb90753a12cf.webp?q=82&s=300x300&t=crop",
+        "title": "최고급 반신욕기 판매합니다.",
+        "location": "세종시 대평동",
+        "time": "2021-07-22T20:53:00Z",
+        "price": 100000,
+        "contect_state": {
+            "comments": null,
+            "chat": 5,
+            "interest": 10
+        }
     }
 ]

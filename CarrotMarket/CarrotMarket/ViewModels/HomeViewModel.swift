@@ -24,17 +24,9 @@ class HomeViewModel {
         let fetching = PublishSubject<Void>()
         let goods = BehaviorSubject<[ViewGoods]>(value: [])
         
-    
-        
-//        fetching
-//            .flatMap { goodsStore.fetchGoods() }
-//            .map { $0.map { ViewGoods(goods: $0) } }
-//            .do(onError: {err in print(err)})
-//            .subscribe(onNext: goods.onNext)
-//            .disposed(by: disposeBag)
         fetchGoods = fetching.asObserver()
         
-        GoodsStore.fetchGoodsStatic()
+        goodsStore.fetchGoodsStatic()
             .map { $0.map { ViewGoods(goods: $0) } }
             .subscribe(onNext: goods.onNext)
             .disposed(by: disposeBag)
