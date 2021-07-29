@@ -28,15 +28,27 @@ class HomeViewController: ASDKViewController<ASTableNode> {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        binding()
+    }
+    
+    private func binding() {
+    
+        let load = Observable<Void>.just(())
+        
+        load
+            .observe(on: MainScheduler.asyncInstance)
+            .bind(to: viewModel.fetchGoods)
+            .disposed(by: disposeBag)
         
         viewModel.allGoods
-            .subscribe(on: MainScheduler.asyncInstance)
             .subscribe(onNext: { [weak self] _ in
-                self?.node.reloadData()
+                DispatchQueue.main.async {
+                    self?.node.reloadData()
+                }
             })
             .disposed(by: disposeBag)
+        
     }
-
 
 }
 

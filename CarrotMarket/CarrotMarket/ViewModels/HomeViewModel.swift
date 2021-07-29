@@ -28,16 +28,23 @@ class HomeViewModel {
         
         fetchGoods = fetching.asObserver()
         
-        goodsStore.fetchGoodsStatic()
+        fetching
+            .debug()
+            .flatMap(goodsStore.fetchGoodsStatic)
             .map { $0.map { ViewGoods(goods: $0) } }
             .subscribe(onNext: goods.onNext)
             .disposed(by: disposeBag)
+                
+//        goodsStore.fetchGoodsStatic()
+//            .map { $0.map { ViewGoods(goods: $0) } }
+//            .subscribe(onNext: goods.onNext)
+//            .disposed(by: disposeBag)
         
         allGoods = goods
         
-        allGoods.subscribe {
-            self.items = $0
-        }.disposed(by: disposeBag)
+        allGoods
+            .subscribe { self.items = $0 }
+            .disposed(by: disposeBag)
     }
         
 }
