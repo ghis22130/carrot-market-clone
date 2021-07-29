@@ -52,14 +52,14 @@ extension HomeViewController: ASTableDataSource {
     }
     
     func tableNode(_ tableNode: ASTableNode, nodeBlockForRowAt indexPath: IndexPath) -> ASCellNodeBlock {
+        var item: ViewGoods?
+        
+        self.viewModel.allGoods
+            .subscribe { goods in
+                item = goods.element?.compactMap{ $0 }[indexPath.row]
+            }.disposed(by: self.disposeBag)
+        
         return {
-            var item: ViewGoods?
-            
-            self.viewModel.allGoods
-                .subscribe { goods in
-                    item = goods.element?.compactMap{ $0 }[indexPath.row]
-                }.disposed(by: self.disposeBag)
-            
             return GoodsListCellNode(with: item)
         }
     }
