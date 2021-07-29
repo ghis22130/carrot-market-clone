@@ -38,7 +38,7 @@ class HomeViewModel {
         allGoods = goods
         
         allGoods
-            .subscribe { self.items = $0 }
+            .subscribe(onNext: { self.items = $0 } )
             .disposed(by: disposeBag)
     }
         
