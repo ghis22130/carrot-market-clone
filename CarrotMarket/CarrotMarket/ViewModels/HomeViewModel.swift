@@ -35,11 +35,6 @@ class HomeViewModel {
             .subscribe(onNext: goods.onNext)
             .disposed(by: disposeBag)
                 
-//        goodsStore.fetchGoodsStatic()
-//            .map { $0.map { ViewGoods(goods: $0) } }
-//            .subscribe(onNext: goods.onNext)
-//            .disposed(by: disposeBag)
-        
         allGoods = goods
         
         allGoods
