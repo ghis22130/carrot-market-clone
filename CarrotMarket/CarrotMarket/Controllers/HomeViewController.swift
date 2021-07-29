@@ -41,10 +41,10 @@ class HomeViewController: ASDKViewController<ASTableNode> {
             .disposed(by: disposeBag)
         
         viewModel.allGoods
+            .observe(on: MainScheduler.instance)
             .subscribe(onNext: { [weak self] _ in
-                DispatchQueue.main.async {
                     self?.node.reloadData()
-                }
+                
             })
             .disposed(by: disposeBag)
         
