@@ -16,9 +16,11 @@ class HomeViewModel {
     // INPUT
     let fetchGoods: AnyObserver<Void>
     
-    
     //OUTPUT
     let allGoods: Observable<[ViewGoods]>
+    
+    //Property
+    private(set) var items: [ViewGoods]  = []
     
     init(goodsStore: GoodsStore = GoodsStore()) {
         let fetching = PublishSubject<Void>()
@@ -33,6 +35,9 @@ class HomeViewModel {
         
         allGoods = goods
         
+        allGoods.subscribe {
+            self.items = $0
+        }.disposed(by: disposeBag)
     }
         
 }

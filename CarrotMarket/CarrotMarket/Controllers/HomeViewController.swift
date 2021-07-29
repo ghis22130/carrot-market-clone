@@ -19,6 +19,7 @@ class HomeViewController: ASDKViewController<ASTableNode> {
         super.init(node: ASTableNode())
         self.node.insetsLayoutMarginsFromSafeArea = true
         self.node.dataSource = self
+        
     }
     
     required init?(coder: NSCoder) {
@@ -41,23 +42,13 @@ class HomeViewController: ASDKViewController<ASTableNode> {
 
 extension HomeViewController: ASTableDataSource {
     func tableNode(_ tableNode: ASTableNode, numberOfRowsInSection section: Int) -> Int {
-        var count = 0
-        
-        viewModel.allGoods
-            .subscribe { goods in
-                count = goods.element?.count ?? 0 }
-            .disposed(by: disposeBag)
+        let count = viewModel.items.count
         
         return count
     }
     
     func tableNode(_ tableNode: ASTableNode, nodeBlockForRowAt indexPath: IndexPath) -> ASCellNodeBlock {
-        var item: ViewGoods?
-        
-        self.viewModel.allGoods
-            .subscribe { goods in
-                item = goods.element?.compactMap{ $0 }[indexPath.row]
-            }.disposed(by: self.disposeBag)
+        let item: ViewGoods? = viewModel.items[indexPath.row]
         
         return {
             return GoodsListCellNode(with: item)
