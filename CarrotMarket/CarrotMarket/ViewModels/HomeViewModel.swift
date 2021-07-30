@@ -22,7 +22,7 @@ class HomeViewModel {
     //Property
     private(set) var items: [ViewGoods]  = []
     
-    init(goodsStore: GoodsStore = GoodsStore()) {
+    init(goodsStore: GoodsFetchable = GoodsStore()) {
         let fetching = PublishSubject<Void>()
         let goods = BehaviorSubject<[ViewGoods]>(value: [])
         

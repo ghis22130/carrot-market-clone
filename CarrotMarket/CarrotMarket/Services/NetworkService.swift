@@ -41,7 +41,7 @@ class NetworkService {
         }.asSingle()
     }
     
-    func get(url: URL) -> Observable<Data> {
+    func get(url: URL) -> Single<Data> {
         return Observable.create { emitter in
                 URLSession.shared.dataTask(with: url) { data, res, err in
                     if let err = err {
@@ -58,7 +58,7 @@ class NetworkService {
                 }.resume()
     
             return Disposables.create()
-        }
+        }.asSingle()
     }
 }
 

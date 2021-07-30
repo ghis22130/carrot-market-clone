@@ -8,7 +8,12 @@
 import Foundation
 import RxSwift
 
-class GoodsStore {
+protocol GoodsFetchable {
+    func fetchGoods() -> Single<[Goods]>
+    func fetchGoodsStatic() -> Single<[Goods]>
+}
+
+class GoodsStore: GoodsFetchable {
     let url = ""
     
     func fetchGoods() -> Single<[Goods]> {
@@ -25,7 +30,7 @@ class GoodsStore {
             }
     }
     
-    func fetchGoodsStatic() -> Observable<[Goods]> {
+    func fetchGoodsStatic() -> Single<[Goods]> {
         let bundle = Bundle.main
         let url = bundle.url(forResource: "GoodsList", withExtension: "json")!
         let decoder = JSONDecoder()
@@ -37,7 +42,7 @@ class GoodsStore {
                     throw NSError(domain: "Decoding error", code: -1, userInfo: nil)
                 }
                 return response
-            }
+            }.asSingle()
     }
     
 }
