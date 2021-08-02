@@ -42,7 +42,7 @@ class GoodsStore: GoodsFetchable {
                     throw NSError(domain: "Decoding error", code: -1, userInfo: nil)
                 }
                 return response
-            }.asSingle()
+            }
     }
     
 }
