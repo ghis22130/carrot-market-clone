@@ -60,10 +60,12 @@ extension HomeViewController: ASTableDataSource {
     }
     
     func tableNode(_ tableNode: ASTableNode, nodeBlockForRowAt indexPath: IndexPath) -> ASCellNodeBlock {
-        let item: ViewGoods? = viewModel.items[indexPath.row]
+        let item: ViewGoods = viewModel.items[indexPath.row]
         
         return {
-            return GoodsListCellNode(with: item)
+            let cell = GoodsListCellNode()
+            cell.onData.onNext(item)
+            return cell
         }
     }
 }
